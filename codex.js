@@ -2,7 +2,6 @@ const search_term = document.getElementById('search_q')
 const search_btn = document.getElementById('search-btn')
 
 
-// api https://pokeapi.co/docs/v2#pokemon
 const getPokemonData = async term => {
     document.getElementById('show_error').classList.remove('show')
     document.getElementById('show_error').classList.add('hidden')
@@ -19,7 +18,6 @@ const getPokemonData = async term => {
     const pokemon = await response.json()
     debugger
 
-    // update ui with data 
     document.getElementById('update_img').setAttribute('src', pokemon.sprites.other.dream_world.front_default)
     document.getElementById('update_name').innerHTML = pokemon.name
     document.getElementById('update_candy_title').innerHTML = `${pokemon.name} Candy`

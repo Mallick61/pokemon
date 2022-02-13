@@ -57,18 +57,7 @@ input:focus {
     text-align: center;
 }
 
-/* .img-container::after {
-    content: '';
-    display: block;
-    border-radius: 50%;
-    width: 138px;
-    height: 25px;
-    left: 37%;
-    position: absolute;
-    background-color: rgba(117, 117, 117, 0.2);
-    box-shadow: 0 0 17px rgba(117, 117, 117, 0.5);
-    bottom: 72px;
-} */
+
 
 .detail-container {
     display: flex;
@@ -87,7 +76,7 @@ input:focus {
     border-radius: 5px;
 }
 
-.btn-transfer {
+.comment {
     margin: 45px 0;
     padding: 15px 30px;
     background: linear-gradient(to right, #9EDA93, #22CBA8);
